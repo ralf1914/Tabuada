@@ -10,7 +10,7 @@ function calcular(){
             var item = document.createElement('option')
             item.text=`${n} x ${valor} = ${n * valor}`
             list.appendChild(item)
-            list.value=''
+            
         }
 
         
